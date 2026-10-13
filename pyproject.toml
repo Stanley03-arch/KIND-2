@@ -1,0 +1,18 @@
+[project]
+name = "kind"
+version = "2.0.0"
+description = "Kind System One decision engine. TypeSafe-compatible request and answer shapes."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2",
+  "numpy",
+  "requests",
+]
+
+[project.optional-dependencies]
+server = ["fastapi", "uvicorn"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["kind*", "openkind*", "kind2*"]

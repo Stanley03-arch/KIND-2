@@ -1,0 +1,2557 @@
+{
+  "seed": 42,
+  "n_cases": 60,
+  "score_tolerance": 0.75,
+  "environment": {
+    "python": "3.11.6",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "engines": {
+    "kind-legacy(hash)": {
+      "accuracy": {
+        "noul": 0.75,
+        "choice": 0.8,
+        "score": 0.65
+      },
+      "overall_accuracy": 0.7333,
+      "ece_noul": 0.0898,
+      "p50_ms": 11.91,
+      "p95_ms": 30.37,
+      "cases": [
+        {
+          "id": "choice-18",
+          "cat": "choice",
+          "ok": true,
+          "expected": "sales",
+          "answer": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.9065,
+            "probabilities": {
+              "billing": 0.024,
+              "tech": 0.0383,
+              "sales": 0.9377
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "choice-03",
+          "cat": "choice",
+          "ok": true,
+          "expected": "billing",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.9997,
+            "probabilities": {
+              "billing": 0.9998,
+              "tech": 0.0001,
+              "sales": 0.0001
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-14",
+          "cat": "score",
+          "ok": true,
+          "expected": 2,
+          "answer": {
+            "type": "score",
+            "score": 1.925,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0112,
+              "1": 0.0525,
+              "2": 0.9363
+            },
+            "confidence": 0.8877,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.0112,
+              0.0525,
+              0.9363
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-11",
+          "cat": "noul",
+          "ok": false,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.212,
+            "verdict": false,
+            "confidence": 0.576
+          },
+          "error": null
+        },
+        {
+          "id": "noul-16",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2233,
+            "verdict": false,
+            "confidence": 0.5534
+          },
+          "error": null
+        },
+        {
+          "id": "choice-00",
+          "cat": "choice",
+          "ok": true,
+          "expected": "billing",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.9997,
+            "probabilities": {
+              "billing": 0.9998,
+              "tech": 0.0001,
+              "sales": 0.0001
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-15",
+          "cat": "score",
+          "ok": true,
+          "expected": 2,
+          "answer": {
+            "type": "score",
+            "score": 1.962,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0095,
+              "1": 0.0186,
+              "2": 0.9719
+            },
+            "confidence": 0.9436,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.0095,
+              0.0186,
+              0.9719
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "score-18",
+          "cat": "score",
+          "ok": true,
+          "expected": 1,
+          "answer": {
+            "type": "score",
+            "score": 1.041,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.2889,
+              "1": 0.3811,
+              "2": 0.33
+            },
+            "confidence": 0.0716,
+            "level": "Broken or degraded feature, but workaround exists",
+            "distribution": [
+              0.2889,
+              0.3811,
+              0.33
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "choice-13",
+          "cat": "choice",
+          "ok": true,
+          "expected": "billing",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.9082,
+            "probabilities": {
+              "billing": 0.9388,
+              "tech": 0.0292,
+              "sales": 0.032
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "noul-19",
+          "cat": "noul",
+          "ok": true,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.7817,
+            "verdict": true,
+            "confidence": 0.5634
+          },
+          "error": null
+        },
+        {
+          "id": "noul-09",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.0229,
+            "verdict": false,
+            "confidence": 0.9543
+          },
+          "error": null
+        },
+        {
+          "id": "choice-16",
+          "cat": "choice",
+          "ok": true,
+          "expected": "billing",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.9617,
+            "probabilities": {
+              "billing": 0.9745,
+              "tech": 0.0142,
+              "sales": 0.0113
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "choice-11",
+          "cat": "choice",
+          "ok": true,
+          "expected": "sales",
+          "answer": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.9994,
+            "probabilities": {
+              "billing": 0.0002,
+              "tech": 0.0002,
+              "sales": 0.9996
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-05",
+          "cat": "score",
+          "ok": true,
+          "expected": 1,
+          "answer": {
+            "type": "score",
+            "score": 0.78,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.2729,
+              "1": 0.6744,
+              "2": 0.0527
+            },
+            "confidence": 0.5116,
+            "level": "Broken or degraded feature, but workaround exists",
+            "distribution": [
+              0.2729,
+              0.6744,
+              0.0527
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "choice-10",
+          "cat": "choice",
+          "ok": true,
+          "expected": "tech",
+          "answer": {
+            "type": "choice",
+            "choice": "tech",
+            "confidence": 0.9997,
+            "probabilities": {
+              "billing": 0.0001,
+              "tech": 0.9998,
+              "sales": 0.0001
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-09",
+          "cat": "score",
+          "ok": true,
+          "expected": 1,
+          "answer": {
+            "type": "score",
+            "score": 1.075,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0275,
+              "1": 0.8703,
+              "2": 0.1022
+            },
+            "confidence": 0.8054,
+            "level": "Broken or degraded feature, but workaround exists",
+            "distribution": [
+              0.0275,
+              0.8703,
+              0.1022
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-03",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.1973,
+            "verdict": false,
+            "confidence": 0.6054
+          },
+          "error": null
+        },
+        {
+          "id": "choice-01",
+          "cat": "choice",
+          "ok": true,
+          "expected": "tech",
+          "answer": {
+            "type": "choice",
+            "choice": "tech",
+            "confidence": 0.9997,
+            "probabilities": {
+              "billing": 0.0001,
+              "tech": 0.9998,
+              "sales": 0.0001
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-10",
+          "cat": "score",
+          "ok": false,
+          "expected": 1,
+          "answer": {
+            "type": "score",
+            "score": 1.973,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0032,
+              "1": 0.0206,
+              "2": 0.9762
+            },
+            "confidence": 0.9595,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.0032,
+              0.0206,
+              0.9762
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-04",
+          "cat": "noul",
+          "ok": true,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.995,
+            "verdict": true,
+            "confidence": 0.9901
+          },
+          "error": null
+        },
+        {
+          "id": "choice-09",
+          "cat": "choice",
+          "ok": true,
+          "expected": "billing",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.9971,
+            "probabilities": {
+              "billing": 0.9981,
+              "tech": 0.0009,
+              "sales": 0.001
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "noul-10",
+          "cat": "noul",
+          "ok": true,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.9764,
+            "verdict": true,
+            "confidence": 0.9527
+          },
+          "error": null
+        },
+        {
+          "id": "score-19",
+          "cat": "score",
+          "ok": false,
+          "expected": 0,
+          "answer": {
+            "type": "score",
+            "score": 1.003,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.3283,
+              "1": 0.3409,
+              "2": 0.3309
+            },
+            "confidence": 0.0112,
+            "level": "Broken or degraded feature, but workaround exists",
+            "distribution": [
+              0.3283,
+              0.3409,
+              0.3309
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "choice-02",
+          "cat": "choice",
+          "ok": true,
+          "expected": "sales",
+          "answer": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.9562,
+            "probabilities": {
+              "billing": 0.014,
+              "tech": 0.0152,
+              "sales": 0.9708
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-01",
+          "cat": "score",
+          "ok": true,
+          "expected": 0,
+          "answer": {
+            "type": "score",
+            "score": 0.075,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.9502,
+              "1": 0.0243,
+              "2": 0.0256
+            },
+            "confidence": 0.8868,
+            "level": "Cosmetic; no impact to functionality",
+            "distribution": [
+              0.9502,
+              0.0243,
+              0.0256
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "choice-04",
+          "cat": "choice",
+          "ok": true,
+          "expected": "tech",
+          "answer": {
+            "type": "choice",
+            "choice": "tech",
+            "confidence": 1.0,
+            "probabilities": {
+              "billing": 0.0,
+              "tech": 1.0,
+              "sales": 0.0
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "noul-00",
+          "cat": "noul",
+          "ok": true,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.7239,
+            "verdict": true,
+            "confidence": 0.4479
+          },
+          "error": null
+        },
+        {
+          "id": "score-04",
+          "cat": "score",
+          "ok": true,
+          "expected": 0,
+          "answer": {
+            "type": "score",
+            "score": 0.336,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.7819,
+              "1": 0.1004,
+              "2": 0.1176
+            },
+            "confidence": 0.4966,
+            "level": "Cosmetic; no impact to functionality",
+            "distribution": [
+              0.7819,
+              0.1004,
+              0.1176
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "choice-05",
+          "cat": "choice",
+          "ok": false,
+          "expected": "sales",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.909,
+            "probabilities": {
+              "billing": 0.9393,
+              "tech": 0.0267,
+              "sales": 0.034
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-12",
+          "cat": "score",
+          "ok": true,
+          "expected": 2,
+          "answer": {
+            "type": "score",
+            "score": 2.0,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0,
+              "1": 0.0,
+              "2": 1.0
+            },
+            "confidence": 1.0,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-18",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2116,
+            "verdict": false,
+            "confidence": 0.5769
+          },
+          "error": null
+        },
+        {
+          "id": "choice-08",
+          "cat": "choice",
+          "ok": true,
+          "expected": "sales",
+          "answer": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.9221,
+            "probabilities": {
+              "billing": 0.0256,
+              "tech": 0.0263,
+              "sales": 0.9481
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "choice-19",
+          "cat": "choice",
+          "ok": true,
+          "expected": "billing",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 1.0,
+            "probabilities": {
+              "billing": 1.0,
+              "tech": 0.0,
+              "sales": 0.0
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "choice-06",
+          "cat": "choice",
+          "ok": true,
+          "expected": "billing",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.9134,
+            "probabilities": {
+              "billing": 0.9423,
+              "tech": 0.027,
+              "sales": 0.0307
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-08",
+          "cat": "score",
+          "ok": true,
+          "expected": 1,
+          "answer": {
+            "type": "score",
+            "score": 1.002,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0963,
+              "1": 0.8053,
+              "2": 0.0985
+            },
+            "confidence": 0.7078,
+            "level": "Broken or degraded feature, but workaround exists",
+            "distribution": [
+              0.0963,
+              0.8053,
+              0.0985
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-12",
+          "cat": "noul",
+          "ok": false,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.7338,
+            "verdict": true,
+            "confidence": 0.4677
+          },
+          "error": null
+        },
+        {
+          "id": "choice-15",
+          "cat": "choice",
+          "ok": true,
+          "expected": "sales",
+          "answer": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.9997,
+            "probabilities": {
+              "billing": 0.0001,
+              "tech": 0.0001,
+              "sales": 0.9998
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-02",
+          "cat": "score",
+          "ok": false,
+          "expected": 0,
+          "answer": {
+            "type": "score",
+            "score": 1.274,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.2798,
+              "1": 0.1663,
+              "2": 0.5539
+            },
+            "confidence": 0.0,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.2798,
+              0.1663,
+              0.5539
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "choice-12",
+          "cat": "choice",
+          "ok": true,
+          "expected": "tech",
+          "answer": {
+            "type": "choice",
+            "choice": "tech",
+            "confidence": 0.1635,
+            "probabilities": {
+              "billing": 0.2627,
+              "tech": 0.4423,
+              "sales": 0.295
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-13",
+          "cat": "score",
+          "ok": true,
+          "expected": 2,
+          "answer": {
+            "type": "score",
+            "score": 1.99,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0002,
+              "1": 0.0097,
+              "2": 0.9901
+            },
+            "confidence": 0.9849,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.0002,
+              0.0097,
+              0.9901
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-13",
+          "cat": "noul",
+          "ok": false,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2413,
+            "verdict": false,
+            "confidence": 0.5174
+          },
+          "error": null
+        },
+        {
+          "id": "score-06",
+          "cat": "score",
+          "ok": true,
+          "expected": 1,
+          "answer": {
+            "type": "score",
+            "score": 1.614,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0177,
+              "1": 0.351,
+              "2": 0.6313
+            },
+            "confidence": 0.4204,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.0177,
+              0.351,
+              0.6313
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "score-17",
+          "cat": "score",
+          "ok": false,
+          "expected": 2,
+          "answer": {
+            "type": "score",
+            "score": 0.769,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.5634,
+              "1": 0.1044,
+              "2": 0.3322
+            },
+            "confidence": 0.0,
+            "level": "Cosmetic; no impact to functionality",
+            "distribution": [
+              0.5634,
+              0.1044,
+              0.3322
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-02",
+          "cat": "noul",
+          "ok": true,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.7239,
+            "verdict": true,
+            "confidence": 0.4479
+          },
+          "error": null
+        },
+        {
+          "id": "choice-07",
+          "cat": "choice",
+          "ok": false,
+          "expected": "tech",
+          "answer": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.0133,
+            "probabilities": {
+              "billing": 0.3283,
+              "tech": 0.3295,
+              "sales": 0.3422
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "choice-17",
+          "cat": "choice",
+          "ok": false,
+          "expected": "tech",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.9158,
+            "probabilities": {
+              "billing": 0.9439,
+              "tech": 0.0259,
+              "sales": 0.0302
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "noul-05",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2179,
+            "verdict": false,
+            "confidence": 0.5642
+          },
+          "error": null
+        },
+        {
+          "id": "choice-14",
+          "cat": "choice",
+          "ok": false,
+          "expected": "tech",
+          "answer": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.0486,
+            "probabilities": {
+              "billing": 0.3304,
+              "tech": 0.3039,
+              "sales": 0.3657
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-11",
+          "cat": "score",
+          "ok": true,
+          "expected": 2,
+          "answer": {
+            "type": "score",
+            "score": 1.999,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0,
+              "1": 0.0008,
+              "2": 0.9992
+            },
+            "confidence": 0.9988,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.0,
+              0.0008,
+              0.9992
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "score-03",
+          "cat": "score",
+          "ok": false,
+          "expected": 0,
+          "answer": {
+            "type": "score",
+            "score": 0.956,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.3691,
+              "1": 0.3058,
+              "2": 0.325
+            },
+            "confidence": 0.0,
+            "level": "Cosmetic; no impact to functionality",
+            "distribution": [
+              0.3691,
+              0.3058,
+              0.325
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-06",
+          "cat": "noul",
+          "ok": true,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.9578,
+            "verdict": true,
+            "confidence": 0.9156
+          },
+          "error": null
+        },
+        {
+          "id": "score-16",
+          "cat": "score",
+          "ok": false,
+          "expected": 2,
+          "answer": {
+            "type": "score",
+            "score": 0.994,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.3366,
+              "1": 0.3328,
+              "2": 0.3306
+            },
+            "confidence": 0.0,
+            "level": "Cosmetic; no impact to functionality",
+            "distribution": [
+              0.3366,
+              0.3328,
+              0.3306
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-08",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2407,
+            "verdict": false,
+            "confidence": 0.5186
+          },
+          "error": null
+        },
+        {
+          "id": "noul-14",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2127,
+            "verdict": false,
+            "confidence": 0.5746
+          },
+          "error": null
+        },
+        {
+          "id": "noul-15",
+          "cat": "noul",
+          "ok": false,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2134,
+            "verdict": false,
+            "confidence": 0.5732
+          },
+          "error": null
+        },
+        {
+          "id": "noul-17",
+          "cat": "noul",
+          "ok": false,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.3018,
+            "verdict": false,
+            "confidence": 0.3964
+          },
+          "error": null
+        },
+        {
+          "id": "score-07",
+          "cat": "score",
+          "ok": true,
+          "expected": 1,
+          "answer": {
+            "type": "score",
+            "score": 1.175,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.274,
+              "1": 0.2766,
+              "2": 0.4494
+            },
+            "confidence": 0.0,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.274,
+              0.2766,
+              0.4494
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-01",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2288,
+            "verdict": false,
+            "confidence": 0.5424
+          },
+          "error": null
+        },
+        {
+          "id": "noul-07",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2273,
+            "verdict": false,
+            "confidence": 0.5455
+          },
+          "error": null
+        },
+        {
+          "id": "score-00",
+          "cat": "score",
+          "ok": false,
+          "expected": 0,
+          "answer": {
+            "type": "score",
+            "score": 1.143,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.2625,
+              "1": 0.3316,
+              "2": 0.4058
+            },
+            "confidence": 0.0,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.2625,
+              0.3316,
+              0.4058
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        }
+      ]
+    },
+    "kind-local(st:sentence-transformers/all-MiniLM-L6-v2:cpu)": {
+      "accuracy": {
+        "noul": 0.5,
+        "choice": 1.0,
+        "score": 0.75
+      },
+      "overall_accuracy": 0.75,
+      "ece_noul": 0.2728,
+      "p50_ms": 103.63,
+      "p95_ms": 429.6,
+      "cases": [
+        {
+          "id": "choice-18",
+          "cat": "choice",
+          "ok": true,
+          "expected": "sales",
+          "answer": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.3796,
+            "probabilities": {
+              "billing": 0.1773,
+              "tech": 0.2363,
+              "sales": 0.5864
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "choice-03",
+          "cat": "choice",
+          "ok": true,
+          "expected": "billing",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.8847,
+            "probabilities": {
+              "billing": 0.9231,
+              "tech": 0.0622,
+              "sales": 0.0147
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-14",
+          "cat": "score",
+          "ok": true,
+          "expected": 2,
+          "answer": {
+            "type": "score",
+            "score": 1.269,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0485,
+              "1": 0.6335,
+              "2": 0.318
+            },
+            "confidence": 0.4503,
+            "level": "Broken or degraded feature, but workaround exists",
+            "distribution": [
+              0.0485,
+              0.6335,
+              0.318
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-11",
+          "cat": "noul",
+          "ok": false,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2219,
+            "verdict": false,
+            "confidence": 0.5562
+          },
+          "error": null
+        },
+        {
+          "id": "noul-16",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2301,
+            "verdict": false,
+            "confidence": 0.5398000000000001
+          },
+          "error": null
+        },
+        {
+          "id": "choice-00",
+          "cat": "choice",
+          "ok": true,
+          "expected": "billing",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.9671,
+            "probabilities": {
+              "billing": 0.9781,
+              "tech": 0.0087,
+              "sales": 0.0132
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-15",
+          "cat": "score",
+          "ok": true,
+          "expected": 2,
+          "answer": {
+            "type": "score",
+            "score": 1.256,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0993,
+              "1": 0.5457,
+              "2": 0.3551
+            },
+            "confidence": 0.3185,
+            "level": "Broken or degraded feature, but workaround exists",
+            "distribution": [
+              0.0993,
+              0.5457,
+              0.3551
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "score-18",
+          "cat": "score",
+          "ok": true,
+          "expected": 1,
+          "answer": {
+            "type": "score",
+            "score": 1.221,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0464,
+              "1": 0.6861,
+              "2": 0.2675
+            },
+            "confidence": 0.5291,
+            "level": "Broken or degraded feature, but workaround exists",
+            "distribution": [
+              0.0464,
+              0.6861,
+              0.2675
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "choice-13",
+          "cat": "choice",
+          "ok": true,
+          "expected": "billing",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.7024,
+            "probabilities": {
+              "billing": 0.8016,
+              "tech": 0.1335,
+              "sales": 0.0649
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "noul-19",
+          "cat": "noul",
+          "ok": false,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2196,
+            "verdict": false,
+            "confidence": 0.5608
+          },
+          "error": null
+        },
+        {
+          "id": "noul-09",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2317,
+            "verdict": false,
+            "confidence": 0.5366
+          },
+          "error": null
+        },
+        {
+          "id": "choice-16",
+          "cat": "choice",
+          "ok": true,
+          "expected": "billing",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.5653,
+            "probabilities": {
+              "billing": 0.7102,
+              "tech": 0.2402,
+              "sales": 0.0496
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "choice-11",
+          "cat": "choice",
+          "ok": true,
+          "expected": "sales",
+          "answer": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.9356,
+            "probabilities": {
+              "billing": 0.0188,
+              "tech": 0.0241,
+              "sales": 0.9571
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-05",
+          "cat": "score",
+          "ok": true,
+          "expected": 1,
+          "answer": {
+            "type": "score",
+            "score": 1.498,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0775,
+              "1": 0.3474,
+              "2": 0.5751
+            },
+            "confidence": 0.2465,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.0775,
+              0.3474,
+              0.5751
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "choice-10",
+          "cat": "choice",
+          "ok": true,
+          "expected": "tech",
+          "answer": {
+            "type": "choice",
+            "choice": "tech",
+            "confidence": 0.8362,
+            "probabilities": {
+              "billing": 0.0408,
+              "tech": 0.8908,
+              "sales": 0.0684
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-09",
+          "cat": "score",
+          "ok": false,
+          "expected": 1,
+          "answer": {
+            "type": "score",
+            "score": 1.773,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.035,
+              "1": 0.157,
+              "2": 0.8079
+            },
+            "confidence": 0.6594,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.035,
+              0.157,
+              0.8079
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-03",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.207,
+            "verdict": false,
+            "confidence": 0.5860000000000001
+          },
+          "error": null
+        },
+        {
+          "id": "choice-01",
+          "cat": "choice",
+          "ok": true,
+          "expected": "tech",
+          "answer": {
+            "type": "choice",
+            "choice": "tech",
+            "confidence": 0.9761,
+            "probabilities": {
+              "billing": 0.0069,
+              "tech": 0.9841,
+              "sales": 0.009
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-10",
+          "cat": "score",
+          "ok": true,
+          "expected": 1,
+          "answer": {
+            "type": "score",
+            "score": 1.434,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.146,
+              "1": 0.2736,
+              "2": 0.5804
+            },
+            "confidence": 0.1516,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.146,
+              0.2736,
+              0.5804
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-04",
+          "cat": "noul",
+          "ok": false,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2285,
+            "verdict": false,
+            "confidence": 0.5429999999999999
+          },
+          "error": null
+        },
+        {
+          "id": "choice-09",
+          "cat": "choice",
+          "ok": true,
+          "expected": "billing",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.8697,
+            "probabilities": {
+              "billing": 0.9131,
+              "tech": 0.0244,
+              "sales": 0.0625
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "noul-10",
+          "cat": "noul",
+          "ok": false,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2709,
+            "verdict": false,
+            "confidence": 0.45820000000000005
+          },
+          "error": null
+        },
+        {
+          "id": "score-19",
+          "cat": "score",
+          "ok": true,
+          "expected": 0,
+          "answer": {
+            "type": "score",
+            "score": 0.727,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.32,
+              "1": 0.6335,
+              "2": 0.0465
+            },
+            "confidence": 0.4503,
+            "level": "Broken or degraded feature, but workaround exists",
+            "distribution": [
+              0.32,
+              0.6335,
+              0.0465
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "choice-02",
+          "cat": "choice",
+          "ok": true,
+          "expected": "sales",
+          "answer": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.4624,
+            "probabilities": {
+              "billing": 0.1307,
+              "tech": 0.2277,
+              "sales": 0.6416
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-01",
+          "cat": "score",
+          "ok": false,
+          "expected": 0,
+          "answer": {
+            "type": "score",
+            "score": 0.797,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.34,
+              "1": 0.5234,
+              "2": 0.1366
+            },
+            "confidence": 0.2852,
+            "level": "Broken or degraded feature, but workaround exists",
+            "distribution": [
+              0.34,
+              0.5234,
+              0.1366
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "choice-04",
+          "cat": "choice",
+          "ok": true,
+          "expected": "tech",
+          "answer": {
+            "type": "choice",
+            "choice": "tech",
+            "confidence": 0.9374,
+            "probabilities": {
+              "billing": 0.0306,
+              "tech": 0.9583,
+              "sales": 0.0111
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "noul-00",
+          "cat": "noul",
+          "ok": false,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2068,
+            "verdict": false,
+            "confidence": 0.5864
+          },
+          "error": null
+        },
+        {
+          "id": "score-04",
+          "cat": "score",
+          "ok": true,
+          "expected": 0,
+          "answer": {
+            "type": "score",
+            "score": 0.409,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.615,
+              "1": 0.3611,
+              "2": 0.0239
+            },
+            "confidence": 0.3865,
+            "level": "Cosmetic; no impact to functionality",
+            "distribution": [
+              0.615,
+              0.3611,
+              0.0239
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "choice-05",
+          "cat": "choice",
+          "ok": true,
+          "expected": "sales",
+          "answer": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.5796,
+            "probabilities": {
+              "billing": 0.2215,
+              "tech": 0.0588,
+              "sales": 0.7197
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-12",
+          "cat": "score",
+          "ok": false,
+          "expected": 2,
+          "answer": {
+            "type": "score",
+            "score": 1.162,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0279,
+              "1": 0.7822,
+              "2": 0.1899
+            },
+            "confidence": 0.6732,
+            "level": "Broken or degraded feature, but workaround exists",
+            "distribution": [
+              0.0279,
+              0.7822,
+              0.1899
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-18",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2301,
+            "verdict": false,
+            "confidence": 0.5398000000000001
+          },
+          "error": null
+        },
+        {
+          "id": "choice-08",
+          "cat": "choice",
+          "ok": true,
+          "expected": "sales",
+          "answer": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.7471,
+            "probabilities": {
+              "billing": 0.1098,
+              "tech": 0.0588,
+              "sales": 0.8314
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "choice-19",
+          "cat": "choice",
+          "ok": true,
+          "expected": "billing",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.86,
+            "probabilities": {
+              "billing": 0.9067,
+              "tech": 0.036,
+              "sales": 0.0573
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "choice-06",
+          "cat": "choice",
+          "ok": true,
+          "expected": "billing",
+          "answer": {
+            "type": "choice",
+            "choice": "billing",
+            "confidence": 0.9772,
+            "probabilities": {
+              "billing": 0.9848,
+              "tech": 0.0043,
+              "sales": 0.0109
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-08",
+          "cat": "score",
+          "ok": true,
+          "expected": 1,
+          "answer": {
+            "type": "score",
+            "score": 1.272,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.2001,
+              "1": 0.3281,
+              "2": 0.4718
+            },
+            "confidence": 0.0,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.2001,
+              0.3281,
+              0.4718
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-12",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2428,
+            "verdict": false,
+            "confidence": 0.5144
+          },
+          "error": null
+        },
+        {
+          "id": "choice-15",
+          "cat": "choice",
+          "ok": true,
+          "expected": "sales",
+          "answer": {
+            "type": "choice",
+            "choice": "sales",
+            "confidence": 0.6785,
+            "probabilities": {
+              "billing": 0.1294,
+              "tech": 0.0849,
+              "sales": 0.7857
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-02",
+          "cat": "score",
+          "ok": true,
+          "expected": 0,
+          "answer": {
+            "type": "score",
+            "score": 0.747,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.4443,
+              "1": 0.364,
+              "2": 0.1917
+            },
+            "confidence": 0.0,
+            "level": "Cosmetic; no impact to functionality",
+            "distribution": [
+              0.4443,
+              0.364,
+              0.1917
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "choice-12",
+          "cat": "choice",
+          "ok": true,
+          "expected": "tech",
+          "answer": {
+            "type": "choice",
+            "choice": "tech",
+            "confidence": 0.9207,
+            "probabilities": {
+              "billing": 0.0152,
+              "tech": 0.9471,
+              "sales": 0.0377
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-13",
+          "cat": "score",
+          "ok": false,
+          "expected": 2,
+          "answer": {
+            "type": "score",
+            "score": 1.157,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0567,
+              "1": 0.7294,
+              "2": 0.2138
+            },
+            "confidence": 0.5941,
+            "level": "Broken or degraded feature, but workaround exists",
+            "distribution": [
+              0.0567,
+              0.7294,
+              0.2138
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-13",
+          "cat": "noul",
+          "ok": false,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2265,
+            "verdict": false,
+            "confidence": 0.5469999999999999
+          },
+          "error": null
+        },
+        {
+          "id": "score-06",
+          "cat": "score",
+          "ok": true,
+          "expected": 1,
+          "answer": {
+            "type": "score",
+            "score": 1.6,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0541,
+              "1": 0.2916,
+              "2": 0.6543
+            },
+            "confidence": 0.4003,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.0541,
+              0.2916,
+              0.6543
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "score-17",
+          "cat": "score",
+          "ok": false,
+          "expected": 2,
+          "answer": {
+            "type": "score",
+            "score": 0.958,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.1338,
+              "1": 0.7748,
+              "2": 0.0913
+            },
+            "confidence": 0.6622,
+            "level": "Broken or degraded feature, but workaround exists",
+            "distribution": [
+              0.1338,
+              0.7748,
+              0.0913
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-02",
+          "cat": "noul",
+          "ok": false,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2092,
+            "verdict": false,
+            "confidence": 0.5816
+          },
+          "error": null
+        },
+        {
+          "id": "choice-07",
+          "cat": "choice",
+          "ok": true,
+          "expected": "tech",
+          "answer": {
+            "type": "choice",
+            "choice": "tech",
+            "confidence": 0.8274,
+            "probabilities": {
+              "billing": 0.0385,
+              "tech": 0.8849,
+              "sales": 0.0766
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "choice-17",
+          "cat": "choice",
+          "ok": true,
+          "expected": "tech",
+          "answer": {
+            "type": "choice",
+            "choice": "tech",
+            "confidence": 0.2782,
+            "probabilities": {
+              "billing": 0.4526,
+              "tech": 0.5188,
+              "sales": 0.0286
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "noul-05",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2329,
+            "verdict": false,
+            "confidence": 0.5342
+          },
+          "error": null
+        },
+        {
+          "id": "choice-14",
+          "cat": "choice",
+          "ok": true,
+          "expected": "tech",
+          "answer": {
+            "type": "choice",
+            "choice": "tech",
+            "confidence": 0.9319,
+            "probabilities": {
+              "billing": 0.0155,
+              "tech": 0.9546,
+              "sales": 0.0299
+            }
+          },
+          "error": null
+        },
+        {
+          "id": "score-11",
+          "cat": "score",
+          "ok": true,
+          "expected": 2,
+          "answer": {
+            "type": "score",
+            "score": 1.746,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0509,
+              "1": 0.1521,
+              "2": 0.797
+            },
+            "confidence": 0.6191,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.0509,
+              0.1521,
+              0.797
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "score-03",
+          "cat": "score",
+          "ok": true,
+          "expected": 0,
+          "answer": {
+            "type": "score",
+            "score": 0.473,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.6062,
+              "1": 0.3144,
+              "2": 0.0795
+            },
+            "confidence": 0.29,
+            "level": "Cosmetic; no impact to functionality",
+            "distribution": [
+              0.6062,
+              0.3144,
+              0.0795
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-06",
+          "cat": "noul",
+          "ok": false,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.232,
+            "verdict": false,
+            "confidence": 0.536
+          },
+          "error": null
+        },
+        {
+          "id": "score-16",
+          "cat": "score",
+          "ok": true,
+          "expected": 2,
+          "answer": {
+            "type": "score",
+            "score": 1.386,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.0787,
+              "1": 0.457,
+              "2": 0.4643
+            },
+            "confidence": 0.0784,
+            "level": "Blocking issue; no workaround exists",
+            "distribution": [
+              0.0787,
+              0.457,
+              0.4643
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-08",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2314,
+            "verdict": false,
+            "confidence": 0.5372
+          },
+          "error": null
+        },
+        {
+          "id": "noul-14",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2405,
+            "verdict": false,
+            "confidence": 0.519
+          },
+          "error": null
+        },
+        {
+          "id": "noul-15",
+          "cat": "noul",
+          "ok": false,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2191,
+            "verdict": false,
+            "confidence": 0.5618000000000001
+          },
+          "error": null
+        },
+        {
+          "id": "noul-17",
+          "cat": "noul",
+          "ok": false,
+          "expected": true,
+          "answer": {
+            "type": "noul",
+            "noul": 0.1859,
+            "verdict": false,
+            "confidence": 0.6282
+          },
+          "error": null
+        },
+        {
+          "id": "score-07",
+          "cat": "score",
+          "ok": true,
+          "expected": 1,
+          "answer": {
+            "type": "score",
+            "score": 1.017,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.1265,
+              "1": 0.7299,
+              "2": 0.1437
+            },
+            "confidence": 0.5948,
+            "level": "Broken or degraded feature, but workaround exists",
+            "distribution": [
+              0.1265,
+              0.7299,
+              0.1437
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        },
+        {
+          "id": "noul-01",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2295,
+            "verdict": false,
+            "confidence": 0.5409999999999999
+          },
+          "error": null
+        },
+        {
+          "id": "noul-07",
+          "cat": "noul",
+          "ok": true,
+          "expected": false,
+          "answer": {
+            "type": "noul",
+            "noul": 0.2485,
+            "verdict": false,
+            "confidence": 0.503
+          },
+          "error": null
+        },
+        {
+          "id": "score-00",
+          "cat": "score",
+          "ok": true,
+          "expected": 0,
+          "answer": {
+            "type": "score",
+            "score": 0.347,
+            "legend": {
+              "0": "Cosmetic; no impact to functionality",
+              "1": "Broken or degraded feature, but workaround exists",
+              "2": "Blocking issue; no workaround exists"
+            },
+            "probabilities": {
+              "0": 0.7351,
+              "1": 0.1831,
+              "2": 0.0818
+            },
+            "confidence": 0.48,
+            "level": "Cosmetic; no impact to functionality",
+            "distribution": [
+              0.7351,
+              0.1831,
+              0.0818
+            ],
+            "levels": [
+              "Cosmetic; no impact to functionality",
+              "Broken or degraded feature, but workaround exists",
+              "Blocking issue; no workaround exists"
+            ]
+          },
+          "error": null
+        }
+      ]
+    }
+  }
+}

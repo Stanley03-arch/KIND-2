@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "n": 60,
+  "engines": {},
+  "published_jev_proxy": {
+    "note": "PROXY \u2014 third-party/vendor numbers, NOT same-seed live. Set TYPESAFE_API_KEY for live row.",
+    "typed_decisions_acc": 0.727,
+    "ag_news_acc": 0.91,
+    "emotion_acc": 0.48,
+    "ece": 0.246,
+    "p50_ms_claimed": "70-500 vendor, ~210-276 observed",
+    "price_per_1M_input": 0.042,
+    "weights": "closed API",
+    "determinism": "15 distinct answers / 50 identical requests (jujumilk3 audit)",
+    "coherence": "complementary probs sum 0.71-1.42 (should be 1.0)"
+  }
+}
