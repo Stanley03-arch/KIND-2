@@ -2,6 +2,7 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .venv/
+venv/
 *.egg-info/
 dist/
 build/
@@ -10,3 +11,12 @@ build/
 !.env.example
 *.local
 .DS_Store
+
+# Benchmark / run artifacts
+*.log
+bench_log.txt
+*_results.json
+!beat_kind_results.json
+checkpoints/
+runs/
+outputs/
