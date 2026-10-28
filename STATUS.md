@@ -1,11 +1,23 @@
-# Project status
+# Status — KIND-2
 
-## Current status
-- Repository is clean and ready for local development.
-- Secrets are kept out of version control via environment variables.
-- Setup and contributor docs are in place for new contributors.
+## Current
 
-## Recommended next steps
-1. Review local dependencies and install them in a fresh venv.
-2. Run benchmark checks before making larger changes.
-3. Keep PRs focused and document any configuration changes.
+- Training / benchmark scripts and Modal helpers are in-repo
+- Docs cover setup, security, troubleshooting, and release checklist
+- Local secrets stay out of git (`.env.example` only)
+
+## Verify
+
+```bash
+git clone https://github.com/Stanley03-arch/KIND-2.git
+cd KIND-2
+cp .env.example .env   # fill in keys if needed
+pip install -r requirements.txt
+python run_server.py --help || true
+```
+
+## Focus
+
+- Keep benchmarks reproducible
+- Prefer safe defaults for local runs
+- Document any breaking CLI or env changes in CHANGELOG
